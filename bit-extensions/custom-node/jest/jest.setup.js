@@ -1,6 +1,5 @@
 import { configure } from '@testing-library/dom';
 import '@testing-library/jest-dom/extend-expect';
-import 'jest-styled-components';
 // set a default Timezone.
 process.env.TZ = 'GMT';
 

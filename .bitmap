@@ -11,19 +11,25 @@
 {
     "a": {
         "scope": "ivanmar.libs",
-        "version": "0.0.2",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "libs/a"
     },
+    "aa": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "libs/aa"
+    },
     "b": {
         "scope": "ivanmar.libs",
-        "version": "0.0.2",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "libs/b"
     },
     "c": {
         "scope": "ivanmar.libs",
-        "version": "0.0.3",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "libs/c"
     },
@@ -32,6 +38,12 @@
         "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "bit-extensions/custom-node"
+    },
+    "d": {
+        "scope": "ivanmar.libs",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "libs/d"
     },
     "ssp-units": {
         "scope": "ivanmar.libs",

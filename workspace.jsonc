@@ -1,0 +1,60 @@
+{
+  "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
+  "teambit.workspace/workspace": {
+    "name": "ivanmar",
+    "icon": "https://static.bit.dev/bit-logo.svg",
+    "defaultDirectory": "{scope}/{name}",
+    "defaultScope": "ivanmar.components"
+  },
+  "teambit.dependencies/dependency-resolver": {
+    "packageManager": "teambit.dependencies/yarn",
+    "policy": {
+      "dependencies": {
+        "@types/jest": "-",
+        "@types/styled-system__css": "-",
+        "graphql": "-",
+        "i18n": "-",
+        "next": "-",
+        "styled-components": "-",
+        "theme": "-"
+      },
+      "peerDependencies": {
+        "@babel/runtime": ">=7.12.0",
+        "@types/jest": ">=26.0.0",
+        "@types/react": "^16.14.0 || ^17.0.0",
+        "@types/styled-components": "5.1.9",
+        "@types/styled-system__css": ">=5.0.0",
+        "graphql": ">=14.0.0",
+        "i18n": "*",
+        "jest": ">=26.0.0",
+        "js-cookie": ">=2.2.1",
+        "lodash": ">=4.17.0",
+        "next": "^10.0.0 || ^11.0.0",
+        "react": ">=16.8.0",
+        "react-dom": ">=16.8.0",
+        "styled-components": ">=5.0.0",
+        "theme": "*",
+        "typescript": ">=3.8.0"
+      }
+    }
+  },
+  "teambit.ui-foundation/ui": {
+    "port": 3040,
+    "portRange": [
+      3000,
+      3100
+    ],
+    "host": "localhost",
+    "publicDir": ".bit/public"
+  },
+  "teambit.workspace/variants": {
+    "extensions": {
+      "defaultScope": "ivanmar.bit-extensions",
+      "teambit.harmony/aspect": {}
+    },
+    "libs": {
+      "defaultScope": "ivanmar.libs",
+      "ivanmar.bit-extensions/custom-node": {}
+    }
+  }
+}

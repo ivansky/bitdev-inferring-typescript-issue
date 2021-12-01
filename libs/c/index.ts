@@ -20,7 +20,7 @@ export const cUnit = ServerSideUnit.createServerSideUnit(
 
     return {
       props: {
-        c: 'cany',
+        c: 'cany_another',
       },
     };
   },

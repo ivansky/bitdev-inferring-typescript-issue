@@ -4,7 +4,7 @@
     "name": "ivanmar",
     "icon": "https://static.bit.dev/bit-logo.svg",
     "defaultDirectory": "{scope}/{name}",
-    "defaultScope": "ivanmar.components"
+    "defaultScope": "ivanmar.libs"
   },
   "teambit.dependencies/dependency-resolver": {
     "packageManager": "teambit.dependencies/yarn",
@@ -48,7 +48,7 @@
     "publicDir": ".bit/public"
   },
   "teambit.workspace/variants": {
-    "extensions": {
+    "bit-extensions": {
       "defaultScope": "ivanmar.bit-extensions",
       "teambit.harmony/aspect": {}
     },

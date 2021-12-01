@@ -16,7 +16,7 @@ export const aUnit = ServerSideUnit.createServerSideUnit(
   async ctx => {
     return {
       props: {
-        a: 'any',
+        a: 'any_another',
       },
     };
   },

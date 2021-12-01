@@ -10,38 +10,38 @@
 
 {
     "a": {
-        "scope": "",
-        "version": "",
+        "scope": "ivanmar.libs",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "libs/a"
     },
     "b": {
-        "scope": "",
-        "version": "",
+        "scope": "ivanmar.libs",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "libs/b"
     },
     "c": {
-        "scope": "",
-        "version": "",
+        "scope": "ivanmar.libs",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "libs/c"
     },
     "custom-node": {
-        "scope": "",
-        "version": "",
+        "scope": "ivanmar.bit-extensions",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "bit-extensions/custom-node"
     },
     "ssp-units": {
-        "scope": "",
-        "version": "",
+        "scope": "ivanmar.libs",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "libs/ssp-units"
     },
     "topo-sort": {
-        "scope": "",
-        "version": "",
+        "scope": "ivanmar.libs",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "libs/topo-sort"
     },
